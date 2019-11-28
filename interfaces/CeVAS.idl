@@ -17,8 +17,7 @@ module cellml_services
   {
     /**
      * The source variable (that is, the variable with no public or private
-     * 'in' interfaces). Interfaces which are not connected to anything
-     * (due to an incomplete model) are ignored.
+     * 'in' interfaces).
      */
     readonly attribute cellml_api::CellMLVariable sourceVariable;
 
